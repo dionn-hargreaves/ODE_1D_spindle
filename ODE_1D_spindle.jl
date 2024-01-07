@@ -14,10 +14,9 @@ K = 0.003
 
 λ = 1 + ρ*exp(γ)
 
+# parameters for plotting comparison with PDE
 ω_on = 0.003
-α = 0.008
-β = 0.004
-N = 45.0
+
 
 cd("/Users/mbcx4dh9/Documents/Woolner,S_Jensen,O/PhD/Julia_code/ODE solver")
 mkpath("ODE_Data_$Notes")
